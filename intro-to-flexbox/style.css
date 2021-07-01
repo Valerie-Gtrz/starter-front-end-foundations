@@ -14,18 +14,26 @@ h1 {
 
 h2 {
   margin: 0 10px;
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid rgb(219, 39, 210);
 }
 
 h3 {
   margin: 12px 0;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 2px solid rgb(124, 236, 246);
 }
 
 /* --- Groups & Items --- */
 
 .group {
+  display: flex;
+  flex-direction: row;
 }
 
 .item {
+  flex: 1;
+  margin: 10px ;
+}
+
+.item-double {
+  flex: 2;
 }
